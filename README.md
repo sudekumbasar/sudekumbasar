@@ -14,7 +14,7 @@ I build and evaluate end-to-end AI and data systems, from fine-tuning vision-lan
 | [Hybrid product search](https://github.com/sudekumbasar/product-search-engine) | BM25F + Sentence-BERT + FAISS over 1.5M documents (team of 4) | NDCG 0.64 vs 0.60 for the best single ranker (185 queries) |
 | [Next-speaker prediction](https://github.com/sudekumbasar/next-speaker-prediction) | Hierarchical BiLSTM predicting who speaks next in 4-person meetings (AMI corpus) | Ablation: previous-speaker information is the dominant signal |
 | [Vegan-Eats](https://github.com/sudekumbasar/Vegan-Eats) | E-commerce platform (team of 6) | Order & cart REST APIs, Node.js + MongoDB |
-| [GKE deployment](https://github.com/sudekumbasar/cs436-termproject) | Full-stack app deployed on Google Kubernetes Engine | Docker, Kubernetes, GCP |
+| [GKE deployment](https://github.com/sudekumbasar/gke-kubernetes-deployment) | Full-stack app deployed on Google Kubernetes Engine | Docker, Kubernetes, GCP |
 
 ## Tech
 **ML & AI:** PyTorch · Hugging Face Transformers · LoRA/PEFT · RAG · FAISS · scikit-learn · LightGBM  
