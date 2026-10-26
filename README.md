@@ -11,7 +11,7 @@ I build and evaluate end-to-end AI and data systems, from fine-tuning vision-lan
 |---|---|---|
 | [Lung sound event detection](https://github.com/sudekumbasar/lung-sound-event-detection) | MSc dissertation: CNN-BiGRU detector on 9,765 recordings, comparing class-imbalance loss functions | F1 76.0% (inhalation), leakage-safe split, multi-seed check |
 | [Multimodal QA with a custom LLaVA](https://github.com/sudekumbasar/llava-multimodal-qa) | Vision-language model (LongCLIP + Qwen3) for multiple-choice QA | 70% validation accuracy with LoRA fine-tuning |
-| [Hybrid product search](https://github.com/sudekumbasar/product-search-engine) | BM25F + Sentence-BERT + FAISS over 1.5M documents (team of 4) | NDCG 0.58 → 0.64 on 185 queries |
+| [Hybrid product search](https://github.com/sudekumbasar/product-search-engine) | BM25F + Sentence-BERT + FAISS over 1.5M documents (team of 4) | NDCG 0.64 vs 0.60 for the best single ranker (185 queries) |
 | [Next-speaker prediction](https://github.com/sudekumbasar/next-speaker-prediction) | Hierarchical BiLSTM predicting who speaks next in 4-person meetings (AMI corpus) | Ablation: previous-speaker information is the dominant signal |
 | [Vegan-Eats](https://github.com/sudekumbasar/Vegan-Eats) | E-commerce platform (team of 6) | Order & cart REST APIs, Node.js + MongoDB |
 | [GKE deployment](https://github.com/sudekumbasar/cs436-termproject) | Full-stack app deployed on Google Kubernetes Engine | Docker, Kubernetes, GCP |
